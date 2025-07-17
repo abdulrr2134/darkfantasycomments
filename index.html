@@ -1,8 +1,51 @@
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="87028cbf-8bae-49ff-83f5-4eb6b10c5414"
-  data-page-id="dark-fantasy-home"
-  data-page-url="https://yourgithubusername.github.io"
-  data-page-title="Support the Realm"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Comments - Dark Fantasy Realm</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: #a78bfa;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      max-width: 600px;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #cccccc;
+    }
+
+    .commentbox {
+      width: 100%;
+      max-width: 700px;
+    }
+  </style>
+</head>
+<body>
+  <h1>💬 Share Your Thoughts</h1>
+  <p>
+    Leave a message, a thank you, or share how my work touched you. Your words matter to me — and to the realm. 🖤
+  </p>
+
+  <div class="commentbox"></div>
+
+  <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+  <script>
+    commentBox('5650502519881728-proj');
+  </script>
+</body>
+</html>
